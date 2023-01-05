@@ -21,6 +21,13 @@
   font-size: 64px;
 }
 
+.header-text {
+  margin-top: 40px;
+  font-family: "Dosis", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+
 .text {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 22px;
@@ -33,4 +40,27 @@
 
 .text-centre {
   text-align: center;
+}
+
+.project-container {
+  margin-top: 12px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 1000px;
+}
+
+.project-item {
+  flex-grow: 1;
+  max-width: 360px;
+  padding: 0px 10px 20px;
+}
+
+.project-img {
+  background: rgb(247, 247, 247);
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  padding: 3.5px;
+  width: 100%;
+  height: auto;
 }
