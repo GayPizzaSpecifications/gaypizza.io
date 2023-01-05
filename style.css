@@ -6,6 +6,12 @@
   height: 200px;
   margin-top: 120px;
   background-size: 100% auto;
+  transform: rotateZ(0deg);
+  transition: transform 4.20s cubic-bezier(0.07, 0.64, 0.34, 1);
+}
+
+.logo:hover {
+  transform: rotateZ(1080deg);
 }
 
 .logo-text {
