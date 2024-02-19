@@ -12,6 +12,10 @@ html {
   text-align: center;
 }
 
+details>p {
+  text-align: left;
+}
+
 #logo {
   background: url("/assets/logo.png");
   width: 200px;
